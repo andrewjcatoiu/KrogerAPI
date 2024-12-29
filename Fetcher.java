@@ -3,6 +3,7 @@ import java.io.IOException;
 public class Fetcher {
     public static void main(String[] args) {
         ConfigProcessor configProcessor = new ConfigProcessor();
+        KrogerFetcher krogerFetcher = new KrogerFetcher(configProcessor);
 
         try {
             configProcessor.processConfig();
