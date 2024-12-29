@@ -27,8 +27,6 @@ public class ConfigProcessor {
         }
     }
 
-    
-
     public String getEnv() {
         return env.toString();
     }
