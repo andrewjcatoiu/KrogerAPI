@@ -31,6 +31,10 @@ public class ConfigProcessor {
         return env.toString();
     }
 
+    public String getValue(String key) {
+        return config.getOrDefault(key, "");
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder("");
