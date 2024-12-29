@@ -1,3 +1,6 @@
 .env
 App Registration Details _ Kroger Developers.pdf
 Kroger-Production.postman_environment.json
+Fetcher.class
+ConfigProcessor.class
+KrogerFetcher.class
